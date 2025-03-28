@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-AGRO - Агродроны для скотоводства</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #2c3e50, #27ae60);
+            text-align: center;
+            color: white;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+        }
+        section {
+            padding: 40px;
+        }
+        .button {
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            background: #27ae60;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #219150;
+        }
+        .icon {
+            width: 30px;
+            height: 30px;
+        }
+        ul{
+            font-size: 35px;;
+        }
+        li{
+            list-style: none;
+            font-size: 30px;
+        }
+        .drone-img {
+            width: 200px;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        #contact {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input, 
+#contact textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact textarea {
+    height: 120px;
+    resize: none;
+}
+
+#contact button {
+    padding: 12px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact button:hover {
+    background: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Q-AGRO: Инновационные агродроны</h1>
+    </header>
+    <section>
+        <h2>Добро пожаловать в Q-AGRO</h2>
+        <p>Мы разрабатываем передовые агродроны, оснащенные системой искусственного интеллекта YOLO, которые помогают автоматизировать процесс управления скотоводством.</p>
+        <img src="drone.png" alt="Агродрон" class="drone-img">
+        <a href="#contact" class="button">Связаться с нами</a>
+    </section>  
+    <section>
+        <h2>Преимущества наших дронов</h2>
+        <ul>
+            <li><img src="ai.png" alt="AI Vision" class="icon"> Искусственный интеллект для анализа стад</li>
+            <li><img src="satellite.png" alt="GPS Tracking" class="icon"> GPS-трекинг и мониторинг</li>
+            <li><img src="efficiency.png" alt="Efficiency" class="icon"> Увеличение эффективности фермерства</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Свяжитесь с нами</h2>
+        <form>
+            <input type="text" placeholder="Ваше имя" required><br>
+            <input type="email" placeholder="Ваш Email" required><br>
+            <textarea placeholder="Ваше сообщение" required></textarea><br>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    <footer>
+        &copy; 2025 Q-AGRO. Все права защищены.
+    </footer>
+</body>
+</html>
